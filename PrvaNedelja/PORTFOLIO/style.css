@@ -1,0 +1,135 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    img{
+        width: 100px;
+        height: 80px;
+    }
+
+    header{
+        background-color: white;
+        position: sticky;
+        top:0;
+    }
+
+    header img{
+        height: 80px;
+        font-weight: 100px;
+        float: left;
+    }
+    header h1{
+        float: right;
+        color: orange;
+        font-size: 4em;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        list-style: none;
+        width: 100px;
+        height: 30px;
+        margin-right: 40px;
+        font-size: 1.8em;
+        justify-content: space-between;
+        padding: 1rem;
+        color: red;
+    }
+    nav ul li a:hover{
+        color: orange;
+        background-color: red;
+        cursor: pointer;
+    }
+
+    nav ul li{
+        display: inline;
+    }
+
+
+
+    nav ul li:first-child{
+        margin-left: 10px;
+    }
+
+    .clr {
+        clear: both;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1px 1px;
+        grid-template-areas: "image image image image" "image image image image" "about about services services";
+    }
+    
+    #home { 
+        grid-area: image; 
+        background: url(20190627_185147.jpg) no-repeat center center/cover;
+        height: 100vh;
+        }
+    .content{
+    
+        color: rgb(223, 166, 92);
+    }
+    .content h2{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    .btn{
+        text-decoration: none;
+        color: rgb(248, 208, 133);
+        display: inline-block;
+        padding: 1rem 2rem;
+        border: 1px solid rgb(248, 208, 133);
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    .content .btn:hover{
+        background: red;
+        cursor: pointer;
+    }
+    #about { 
+        grid-area: about; 
+        border: solid red;
+        }
+
+    #about h2{
+            font-size: 3rem;
+            font-family: cursive;
+
+        }
+    #about p{
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 10px;
+        font-family: cursive;
+    }
+
+    #services { 
+        grid-area: services; 
+        border: solid red;
+        }
+    #services h2{
+            font-size: 3rem;
+            font-family: cursive;
+        }    
+
+    #services p{
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 10px;
+        font-family: cursive;
+        }
+    #contact{
+        background-color: gray;
+        color: white;
+        padding: 2rem;
+    }
+    #contact h3{
+        text-align: left;
+    }
+    #contact p{
+        text-align: right;
+    }
