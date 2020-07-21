@@ -16,7 +16,7 @@ let a = 40, b = 50;
 
         console.log("Nemate dovoljno novca")
         console.log('Trenutno stanje je: ' + novcanik)
-    } else if (novcanik>cena){
+    } else{
 
         console.log("Uspesno ste kupili proizvod")
         console.log('Trenutno stanje je: ' + (novcanik-cena))
