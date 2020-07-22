@@ -40,9 +40,8 @@ let a = 40, b = 50;
 // Исписати првих 1000 бројева дељивих са 5
 
 {
-    let prvi = 1
-    let zadnji = 5000
-    for(;prvi <= zadnji; prvi++){
+
+    for( let prvi = 0,zadnji = 5000;prvi <= zadnji; prvi+=5){
         if(prvi % 5 === 0){
             console.log(`${prvi}`)
         }
