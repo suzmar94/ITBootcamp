@@ -19,7 +19,7 @@ let a = 40, b = 50;
     } else{
 
         console.log("Uspesno ste kupili proizvod")
-        console.log('Trenutno stanje je: ' + (novcanik-cena))
+        console.log('Trenutno stanje je: ' + (novcanik-=cena))
     }
 }
 
