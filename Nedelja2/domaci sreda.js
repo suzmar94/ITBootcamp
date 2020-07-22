@@ -51,4 +51,7 @@ let a = 40, b = 50;
     // for (let brojDeljivih = 1000, i=0; brojDeljivih >0; brojDeljivih--) {
     //   console.log(i+=5);
     // }
-
+    
+// for (let brojDeljivih = 1000, i=0; brojDeljivih >0; brojDeljivih--) {
+    //   console.log(i+=5);
+    // }
