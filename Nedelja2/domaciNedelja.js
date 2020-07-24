@@ -111,7 +111,7 @@ console.log('-----------------------------------------------------------------')
 let visina = 5
 
 for(let i = 0; i <= visina; i++){
-    console.log(' '.repeat(visina-i) + '*'.repeat(i) + ' ' + '*'.repeat(i))
+    console.log(' '.repeat(visina-i) + '#'.repeat(i) + ' ' + '#'.repeat(i))
 }
 
 
