@@ -1,15 +1,15 @@
 // /Написати функцију која враћа максимум од 3 броја (Параметри функције су 3 броја)
 
 function maxNumber(a, b, c){
-    if(a>b && a>c){
+    if(a>=b && a>=c){
         return a;
-    }else if(b> a && b>c){
+    }else if(b>=a && b>=c){
         return b;
-    }else if(c>a && c>b){
+    }else{
         return c;
     }
 }
-console.log(maxNumber(5, 3, 14));
+console.log(maxNumber(15, 22, 14));
 
 
 //Написати функцију која израчунава цену пице по квадратном центиметру (параметри функције су полупречник у цм, и цена пице)
