@@ -92,3 +92,19 @@ let red = 1;
 pokemoni.forEach(element => {
     console.log(red++," - ", element.ime, " , brzina=", element.karakteristike.brzina)
 });
+
+// 4.Направити функцију која прима низ покемона, пореди покемоне по јачини/napad и враћа као победника оног који има највећу јачину напада.
+
+
+// function najJaci(pokemoni) {
+//   let najjaci = pokemoni[0];
+//     pokemoni.forEach(el => {
+
+//         if (najjaci.karakteristike.napad < el.karakteristike.napad) 
+//         najjaci = el;
+//     });
+//     return najjaci;
+// }
+// console.log(najJaci(pokemoni));
+
+
